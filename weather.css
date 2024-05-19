@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.Weather-form{
+
+    margin-bottom: 20px;
+}
+
+.displayinfo{
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    min-width: 300px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, hsl(39, 100%, 58%), hsl(240, 80%, 70%));
+    box-shadow: 2px 2px 10px hsl(0, 0%, 0%, .3);
+    border: none;
+    margin: auto;
+}
+
+input {
+    border: 2px solid;
+    padding: 7px 15px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+button{
+    padding: 7px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    background-color: lightblue;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+button:hover{
+
+    transform: scale(1.01);
+
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 1px;
+}
+
+.temperature{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.Humididty{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.skyWeather{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.WeatherEmoji{
+    font-size: 7.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.errordisplay{
+    font-size: 20px;
+    font-weight: bold;
+}
